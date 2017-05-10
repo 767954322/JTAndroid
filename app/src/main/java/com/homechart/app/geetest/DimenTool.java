@@ -9,6 +9,7 @@ public class DimenTool {
 		return context.getResources().getDisplayMetrics().widthPixels;
 	}
 	/**
+	 *
 	 * 获取手机的高(像素)
 	 */
 	public static int getHeightPx(Context context) {

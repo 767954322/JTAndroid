@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/size_55"
+    android:background="@android:color/transparent">
+
+
+    <RadioGroup
+        android:id="@+id/rg_home_radio_group"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/size_54"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <!--图片-->
+        <RadioButton
+            android:id="@+id/radio_btn_pic"
+            style="@style/main_tab_bottom"
+            android:layout_marginTop="@dimen/size_6"
+            android:checked="true"
+            android:drawableTop="@drawable/pic_radio_select"
+            android:text="@string/tab_consumer_pic"
+            android:textSize="@dimen/size_11" />
+
+        <!--设计师-->
+        <RadioButton
+            android:id="@+id/radio_btn_designer"
+            style="@style/main_tab_bottom"
+            android:layout_marginTop="@dimen/size_6"
+            android:checked="true"
+            android:drawableTop="@drawable/desi_radio_select"
+            android:text="@string/tab_consumer_desiner"
+            android:textSize="@dimen/size_11" />
+
+        <RadioButton
+            android:id="@+id/radio_btn_center"
+            style="@style/main_tab_bottom"
+            android:layout_marginTop="@dimen/size_6"
+            android:checked="true"
+            android:drawableTop="@drawable/center_radio_select"
+            android:text="@string/tab_consumer_mycenter"
+            android:textSize="@dimen/size_11" />
+
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/iv_red_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/font_40"
+        android:layout_marginTop="@dimen/font_5"
+        android:src="@drawable/point"
+        android:visibility="gone"/>
+
+
+    <View
+        android:id="@+id/view_line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/font_1"
+        android:layout_above="@+id/rg_home_radio_group"
+        android:background="@color/view_line" />
+</RelativeLayout>

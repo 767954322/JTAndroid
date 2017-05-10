@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">家图</string>
+
+    <!--ConsumerHomeActivity-->
+    <string name="tab_consumer_pic">图片</string>
+    <string name="tab_consumer_desiner">设计师</string>
+    <string name="tab_consumer_mycenter">我的</string>
+
+    <!--HomePicFragment-->
+    <string name="fragment_tab_style">风格</string>
+    <string name="fragment_tab_space">空间</string>
+    <!--UIUtils-->
+    <string name="tip">提示</string>
+    <string name="sure">确定</string>
+    <!-- Drop-down refresh, pull-up loads more -->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+    <string name="pull_to_refresh">&#160;&#160;&#160;&#160;&#160;&#160;&#160;下拉可以刷新</string>
+    <string name="pullup_to_load">上拉可以加载更多</string>
+    <string name="refresh_succeed">刷新成功</string>
+    <string name="refresh_fail">刷新失败</string>
+    <string name="release_to_load">松开立即加载更多数据</string>
+    <string name="loading">等等马上来</string>
+    <string name="load_succeed">加载完成！</string>
+    <string name="load_fail">加载失败</string>
+    <string name="refreshing">等等马上来</string>
+    <string name="release_to_refresh">&#160;&#160;&#160;&#160;&#160;&#160;&#160;松开立即刷新</string>
+    <string name="release_to_refresh_lastTime">最后更新：今天</string>
+    <string name="im_toast_nomore_data">没有数据了</string>
+
+    <!-- DateUtil-->
+    <string name="sunday">星期日</string>
+    <string name="monday">星期一</string>
+    <string name="tuesday">星期二</string>
+    <string name="wednesday">星期三</string>
+    <string name="thursday">星期四</string>
+    <string name="friday">星期五</string>
+    <string name="saturday">星期六</string>
+    <string name="yesterday">昨天</string>
+    <string name="today">今天</string>
+    <string name="casedetails_jianjie">案例简介</string>
+    <string name="huxing_tital">户型图</string>
+
+    <!-- UserRegisterActivity -->
+    <string name="phonenum_error">请填写正确的手机号码</string>
+    <string name="yanzhengma_error">验证码输入错误</string>
+    <string name="nikename_error">请输入正确的昵称</string>
+    <string name="password_error">请输入密码</string>
+    <string name="staggered_layout">Staggered Layout</string>
+    <string name="columns">%1$s column(s)</string>
+    <string name="linear_layout">Linear Layout</string>
+    <string name="grid_layout">Grid Layout</string>
+
+
+    <string name="clear_cath_toast">确认清空本地缓存数据</string>
+    <string name="cancel">取消</string>
+    <string name="clear_cath_sure">清空缓存数据</string>
+    <string name="no_cath">暂无缓冲</string>
+
+    <string name="sd_imgs">本地图片</string>
+    <string name="picture_msg">[图片]</string>
+    <string name="determine">完成</string>
+
+    <string name="addpromiss">需开启权限后才能正常使用</string>
+    <string name="okpromiss">知道了</string>
+    <string name="setpromiss">去设置</string>
+</resources>

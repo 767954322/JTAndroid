@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_case_all"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/tv_item_desinercenter_imageView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/font_195"
+        android:layout_marginLeft="@dimen/font_15"
+        android:layout_marginRight="@dimen/font_15"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/tv_item_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/font_15"
+        android:layout_marginTop="@dimen/font_15"
+        android:background="@drawable/biaoqian_center"
+        android:gravity="center"
+        android:paddingBottom="@dimen/font_2"
+        android:paddingLeft="@dimen/font_17"
+        android:paddingRight="@dimen/font_7"
+        android:paddingTop="@dimen/font_2"
+        android:text="24P"
+        android:textColor="@color/white"
+        android:textSize="@dimen/size_15" />
+
+    <RelativeLayout
+        android:id="@+id/rl_desinercenter_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_item_desinercenter_imageView"
+        android:layout_marginTop="@dimen/font_20">
+
+        <TextView
+            android:id="@+id/tv_item_desinercenter_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/font_15"
+            android:layout_marginRight="@dimen/font_15"
+            android:text="北京-西城"
+            android:textColor="@color/case_text_tital_name"
+            android:textSize="@dimen/size_17" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_below"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_desinercenter_location"
+        android:layout_marginTop="@dimen/font_15"
+        android:paddingLeft="@dimen/font_15">
+
+        <TextView
+            android:id="@+id/tv_item_room"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="平层 3室两厅"
+            android:textColor="@color/bg_707070"
+            android:textSize="@dimen/size_13" />
+
+
+        <View
+            android:id="@+id/view_item_two"
+            android:layout_width="@dimen/font_1"
+            android:layout_height="@dimen/font_10"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/font_3"
+            android:layout_toRightOf="@+id/tv_item_room"
+            android:background="@color/view_line" />
+
+        <TextView
+            android:id="@+id/tv_item_roomspace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/font_3"
+            android:layout_toRightOf="@+id/view_item_two"
+            android:text="180.00m²"
+            android:textColor="@color/bg_707070"
+            android:textSize="@dimen/size_13" />
+
+        <View
+            android:id="@+id/view_item_three"
+            android:layout_width="@dimen/font_1"
+            android:layout_height="@dimen/font_10"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/font_3"
+            android:layout_toRightOf="@+id/tv_item_roomspace"
+            android:background="@color/view_line" />
+
+        <TextView
+            android:id="@+id/tv_item_roomprice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/font_3"
+            android:layout_toRightOf="@+id/view_item_three"
+            android:text="15万²"
+            android:textColor="@color/bg_707070"
+            android:textSize="@dimen/size_13" />
+    </RelativeLayout>
+
+
+    <View
+        android:id="@+id/last_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/font_40"
+        android:layout_below="@+id/rl_below"
+        android:visibility="invisible" />
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/pop_city"
+    android:background="@color/bg_gray_main">
+
+    <com.homechart.app.home.ui.AlphabetListView
+        android:id="@+id/brand_alphabetlistview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <include layout="@layout/person_pinned_header_listview"
+            android:id="@+id/pinnedheader_listview"/>
+        <include layout="@layout/progressbar"
+            android:id="@+id/car_brand_progress"/>
+    </com.homechart.app.home.ui.AlphabetListView>
+
+</RelativeLayout>

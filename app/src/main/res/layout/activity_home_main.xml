@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <RelativeLayout
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/include_bottom"
+        android:layout_weight="1"
+        android:orientation="vertical" />
+
+
+    <include
+        android:id="@+id/include_bottom"
+        layout="@layout/activity_designer_main_bottom_radiobtn_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_55"
+        android:layout_alignParentBottom="true" />
+
+</RelativeLayout>

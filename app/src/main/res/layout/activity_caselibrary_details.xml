@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/common_navbar"
+        layout="@layout/view_navigation_header" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/common_navbar">
+
+        <ListView
+            android:id="@+id/slv_caselibrary_details"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:divider="@null"
+            android:focusableInTouchMode="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/font_65"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/font_10"
+        android:layout_marginLeft="@dimen/font_10"
+        android:layout_marginRight="@dimen/font_10"
+        android:background="@drawable/bar">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/rl_zhuye"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/tv_zhuye"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="@dimen/font_20"
+                    android:layout_marginRight="@dimen/font_61"
+                    android:gravity="center"
+                    android:text="主页"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font_16"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/iv_zhuye"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="@dimen/font_22"
+                    android:layout_marginRight="@dimen/font_8"
+                    android:layout_toLeftOf="@+id/tv_zhuye"
+                    android:src="@drawable/zhuye_icon" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_chat"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageView
+                    android:id="@+id/iv_chat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="@dimen/font_22"
+                    android:layout_marginLeft="@dimen/font_61"
+                    android:src="@drawable/chart_icon" />
+
+                <TextView
+                    android:id="@+id/tv_chart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="@dimen/font_20"
+                    android:layout_marginLeft="@dimen/font_8"
+                    android:layout_toRightOf="@+id/iv_chat"
+                    android:gravity="center"
+                    android:text="咨询"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/font_16"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_header"
+            android:layout_width="@dimen/font_42"
+            android:layout_height="@dimen/font_42"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/font_3"
+            android:src="@drawable/ic_default_head" />
+
+    </RelativeLayout>
+</RelativeLayout>

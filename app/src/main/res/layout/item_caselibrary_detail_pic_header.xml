@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_tital_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/font_40"
+        android:gravity="center_horizontal"
+        android:textColor="@color/case_text_tital_name"
+        android:textSize="@dimen/size_24"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_tital_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_tital_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/font_14"
+        android:gravity="center_horizontal"
+        android:textColor="@color/case_text_tital_name"
+        android:textSize="@dimen/size_24"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/rl_desiner_details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_tital_detail"
+        android:layout_marginTop="@dimen/font_18"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/tv_casedetails_roomtype"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textColor="@color/case_text_tital_detail"
+            android:textSize="@dimen/size_15" />
+
+        <View
+            android:id="@+id/view_line_left_one"
+            android:layout_width="@dimen/font_1"
+            android:layout_height="@dimen/font_10"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/font_8"
+            android:layout_toRightOf="@+id/tv_casedetails_roomtype"
+            android:background="@color/view_line"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tv_casedetails_space"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/font_8"
+            android:layout_toRightOf="@+id/view_line_left_one"
+            android:textColor="@color/case_text_tital_detail"
+            android:textSize="@dimen/size_15" />
+
+        <View
+            android:id="@+id/view_line_center"
+            android:layout_width="@dimen/font_1"
+            android:layout_height="@dimen/font_10"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/font_8"
+            android:layout_toRightOf="@+id/tv_casedetails_space"
+            android:background="@color/view_line"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/tv_casedetails_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/font_8"
+            android:layout_toRightOf="@+id/view_line_center"
+            android:textColor="@color/case_text_tital_detail"
+            android:textSize="@dimen/size_15" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_casedetails_avatar_pic"
+        android:layout_width="@dimen/font_40"
+        android:layout_height="@dimen/font_40"
+        android:layout_below="@+id/rl_desiner_details"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/font_25" />
+
+    <View
+        android:id="@+id/view_avatar_pic"
+        android:layout_width="@dimen/size_0.5"
+        android:layout_height="@dimen/size_0.5"
+        android:layout_below="@+id/rl_desiner_details"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/font_25"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/iv_casedetails_avatar_certification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/iv_casedetails_avatar_pic"
+        android:layout_toRightOf="@+id/view_avatar_pic"
+        android:src="@drawable/test1"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_casedetails_desiner_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_casedetails_avatar_pic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/font_15"
+        android:textColor="@color/case_text_tital_name"
+        android:textSize="@dimen/size_15"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_jianjie_tital"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_casedetails_desiner_name"
+        android:layout_marginLeft="@dimen/font_20"
+        android:layout_marginTop="@dimen/font_70"
+        android:text="@string/casedetails_jianjie"
+        android:textColor="@color/case_text_tital_name"
+        android:textSize="@dimen/size_18"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_jianjie_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_jianjie_tital"
+        android:layout_marginLeft="@dimen/font_20"
+        android:layout_marginRight="@dimen/font_20"
+        android:layout_marginTop="@dimen/font_20"
+        android:lineSpacingExtra="@dimen/font_11"
+        android:textColor="@color/case_text_tital_name"
+        android:textSize="@dimen/size_16" />
+
+    <TextView
+        android:id="@+id/tv_huxing_pic_tital"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_jianjie_detail"
+        android:layout_marginBottom="@dimen/font_20"
+        android:layout_marginLeft="@dimen/font_20"
+        android:layout_marginTop="@dimen/font_60"
+        android:text="@string/huxing_tital"
+        android:textColor="@color/case_text_tital_name"
+        android:textSize="@dimen/size_18"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <View
+        android:id="@+id/view_no_huxing"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/font_60"
+        android:layout_below="@+id/tv_jianjie_detail"
+        android:visibility="gone" />
+</RelativeLayout>

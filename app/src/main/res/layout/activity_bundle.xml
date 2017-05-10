@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <include
+        android:id="@+id/common_navbar"
+        layout="@layout/view_navigation_header" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/common_navbar">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv_bundle_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/font_27"
+                android:layout_marginTop="@dimen/font_30"
+                android:text="尊敬的用户"
+                android:textSize="@dimen/size_27"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_bundle_tital"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_bundle_name"
+                android:layout_marginLeft="@dimen/font_27"
+                android:layout_marginTop="@dimen/font_20"
+                android:text="为了获得更好的服务和体验，请关联账号"
+                android:textColor="@color/case_text_tital_name"
+                android:textSize="@dimen/size_16" />
+
+            <TextView
+                android:id="@+id/tv_bundle_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_bundle_tital"
+                android:layout_marginLeft="@dimen/font_27"
+                android:layout_marginTop="@dimen/font_108"
+                android:text="如果您已有家图账号，请"
+                android:textColor="@color/case_text_tital_name"
+                android:textSize="@dimen/size_16" />
+
+            <Button
+                android:id="@+id/btn_guanliang_yiyou"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/font_40"
+                android:layout_below="@+id/tv_bundle_one"
+                android:layout_marginLeft="@dimen/font_40"
+                android:layout_marginRight="@dimen/font_40"
+                android:layout_marginTop="@dimen/font_20"
+                android:background="@drawable/bt_login"
+                android:text="关联已有账号"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_17"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_bundle_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_guanliang_yiyou"
+                android:layout_marginLeft="@dimen/font_27"
+                android:layout_marginTop="@dimen/font_50"
+                android:text="如果您还没有家图账号，请"
+                android:textColor="@color/case_text_tital_name"
+                android:textSize="@dimen/size_16" />
+
+            <Button
+                android:id="@+id/btn_guanliang_kuaishu"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/font_40"
+                android:layout_below="@+id/tv_bundle_two"
+                android:layout_marginLeft="@dimen/font_40"
+                android:layout_marginRight="@dimen/font_40"
+                android:layout_marginTop="@dimen/font_20"
+                android:background="@drawable/bt_login"
+                android:text="快速关联"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_17"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_item_caselibrary_pic_tital"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/font_20"
+            android:textColor="@color/case_text_tital_name"
+            android:textSize="@dimen/size_24"
+            android:textStyle="bold" />
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/iv_item_caselibrary_pic"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_below="@+id/tv_item_caselibrary_pic_tital"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/font_20"
+            android:background="@color/white"
+            android:scaleType="centerCrop"
+            fresco:actualImageScaleType="centerCrop"
+            fresco:fadeDuration="300"
+            fresco:failureImage="@drawable/loding_piccc"
+            fresco:failureImageScaleType="centerCrop"
+            fresco:placeholderImage="@drawable/loding_piccc"
+            fresco:placeholderImageScaleType="centerCrop"
+            fresco:progressBarAutoRotateInterval="1000"
+            fresco:progressBarImage="@drawable/jiazai"
+            fresco:progressBarImageScaleType="centerCrop"
+            fresco:retryImage="@drawable/jiazai"
+            fresco:retryImageScaleType="centerCrop" />
+
+        <TextView
+            android:id="@+id/tv_item_caselibrary_pic_tag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_item_caselibrary_pic"
+            android:layout_marginLeft="@dimen/font_20"
+            android:layout_marginRight="@dimen/font_20"
+            android:layout_marginTop="@dimen/font_20"
+            android:textColor="@color/case_text_tital_detail"
+            android:textSize="@dimen/size_14" />
+
+        <TextView
+            android:id="@+id/tv_item_caselibrary_pic_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_item_caselibrary_pic_tag"
+            android:layout_marginLeft="@dimen/font_20"
+            android:layout_marginRight="@dimen/font_20"
+            android:layout_marginTop="@dimen/font_20"
+            android:lineSpacingExtra="@dimen/font_11"
+            android:textColor="@color/case_text_tital_name"
+            android:textSize="@dimen/size_16"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/view_tag"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/font_20"
+            android:layout_below="@+id/iv_item_caselibrary_pic"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/bellow_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/font_60"
+        android:layout_below="@+id/rl_content" />
+
+    <RelativeLayout
+        android:id="@+id/rl_reader_over"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bellow_view"
+        android:layout_marginBottom="@dimen/font_40"
+        android:layout_marginTop="@dimen/font_20"
+        android:gravity="center_horizontal|center_vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/over_caselibrary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="您已阅览完毕" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_1"
+            android:layout_centerInParent="true"
+            android:layout_toLeftOf="@+id/over_caselibrary"
+            android:background="@color/view_line" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_1"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@+id/over_caselibrary"
+            android:background="@color/view_line" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/font_100"
+            android:layout_below="@+id/over_caselibrary" />
+    </RelativeLayout>
+
+</RelativeLayout>

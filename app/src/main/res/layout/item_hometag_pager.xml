@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/iv_item_hometag_name"
+        android:layout_width="@dimen/font_101"
+        android:layout_height="@dimen/font_101"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/font_15"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_default_head" />
+
+    <ImageView
+        android:id="@+id/iv_item_select"
+        android:layout_width="@dimen/size_20"
+        android:layout_height="@dimen/size_20"
+        android:layout_alignBottom="@+id/iv_item_hometag_name"
+        android:layout_alignLeft="@+id/iv_item_hometag_name"
+        android:layout_alignRight="@+id/iv_item_hometag_name"
+        android:layout_alignTop="@+id/iv_item_hometag_name"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/choose"
+        android:scaleType="centerCrop"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/iv_item_no"
+        android:layout_width="@dimen/size_20"
+        android:layout_height="@dimen/size_20"
+        android:layout_alignBottom="@+id/iv_item_hometag_name"
+        android:layout_alignLeft="@+id/iv_item_hometag_name"
+        android:layout_alignRight="@+id/iv_item_hometag_name"
+        android:layout_alignTop="@+id/iv_item_hometag_name"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/empty"
+        android:scaleType="centerCrop"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_item_hometag_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_item_hometag_name"
+        android:layout_centerHorizontal="true"
+        android:text="日式" />
+</RelativeLayout>

@@ -1,0 +1,53 @@
+{
+  "project_info": {
+    "project_number": "464210604877",
+    "firebase_url": "https://jiatu2017.firebaseio.com",
+    "project_id": "jiatu2017",
+    "storage_bucket": "jiatu2017.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464210604877:android:dc00fa86f4ee14d4",
+        "android_client_info": {
+          "package_name": "com.homechart.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "464210604877-5ikh566ocbf3b5uocc4rd41j24p3pbk2.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "464210604877-88sifgp2iim86puh0rvkn954vrc7s5bf.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "464210604877-ij8q4otck2lk6t433p7smr71e9k5ltjn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1dQpRte1AOqpXc_ueN_VkjLVyNRLY3VA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-59620051-6"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

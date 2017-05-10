@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_item_equal_two"
+    android:layout_width="@dimen/size_100"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_tab_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rl_line"
+        android:layout_centerHorizontal="true"
+        android:text="fsdf"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_13" />
+
+    <RelativeLayout
+        android:id="@+id/rl_line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_20"
+        android:layout_alignParentBottom="true">
+
+        <ImageView
+            android:id="@+id/tv_tab_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/font_10"
+            android:src="@drawable/abc_background_indicator" />
+
+        <View
+            android:id="@+id/view_line_left"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_1.5"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/font_10"
+            android:layout_toRightOf="@+id/tv_tab_icon"
+            android:background="@color/bg_be"
+            android:visibility="invisible" />
+
+        <View
+            android:id="@+id/view_line_right"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_1.5"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/font_10"
+            android:layout_toLeftOf="@+id/tv_tab_icon"
+            android:background="@color/bg_be"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

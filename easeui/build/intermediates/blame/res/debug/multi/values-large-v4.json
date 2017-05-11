@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/E:\\gumenghao\\before\\JTAndroid\\easeui\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
+        "outputFile": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/E:\\gumenghao\\token\\JTAndroid\\easeui\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 103
                 },
                 "from": {
-                    "file": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/E:\\gumenghao\\before\\JTAndroid\\easeui\\res\\values-large\\ease_dimens.xml",
+                    "file": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/E:\\gumenghao\\token\\JTAndroid\\easeui\\res\\values-large\\ease_dimens.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -30,50 +30,7 @@
                     "endOffset": 157
                 },
                 "from": {
-                    "file": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/E:\\gumenghao\\before\\JTAndroid\\easeui\\res\\values-large\\ease_dimens.xml",
-                    "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 716,
-                        "endColumn": 53,
-                        "endOffset": 765
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/E:\\gumenghao\\releasebug_end\\JTAndroid\\easeui\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 52,
-                    "endOffset": 103
-                },
-                "from": {
-                    "file": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/E:\\gumenghao\\releasebug_end\\JTAndroid\\easeui\\res\\values-large\\ease_dimens.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 663,
-                        "endColumn": 52,
-                        "endOffset": 711
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 108,
-                    "endColumn": 53,
-                    "endOffset": 157
-                },
-                "from": {
-                    "file": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/E:\\gumenghao\\releasebug_end\\JTAndroid\\easeui\\res\\values-large\\ease_dimens.xml",
+                    "file": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/E:\\gumenghao\\token\\JTAndroid\\easeui\\res\\values-large\\ease_dimens.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -129,7 +86,7 @@
         ]
     },
     {
-        "outputFile": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/E:\\gumenghao\\qita\\JTAndroid\\easeui\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
+        "outputFile": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/E:\\gumenghao\\release_bug\\JTAndroid\\easeui\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
         "map": [
             {
                 "to": {
@@ -140,7 +97,7 @@
                     "endOffset": 103
                 },
                 "from": {
-                    "file": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/E:\\gumenghao\\qita\\JTAndroid\\easeui\\res\\values-large\\ease_dimens.xml",
+                    "file": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/E:\\gumenghao\\release_bug\\JTAndroid\\easeui\\res\\values-large\\ease_dimens.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -159,7 +116,7 @@
                     "endOffset": 157
                 },
                 "from": {
-                    "file": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/E:\\gumenghao\\qita\\JTAndroid\\easeui\\res\\values-large\\ease_dimens.xml",
+                    "file": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/E:\\gumenghao\\release_bug\\JTAndroid\\easeui\\res\\values-large\\ease_dimens.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -172,7 +129,7 @@
         ]
     },
     {
-        "outputFile": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/E:\\gumenghao\\token\\JTAndroid\\easeui\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
+        "outputFile": "/Users/gumenghao/Documents/gitclone/JTAndroid/easeui/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
         "map": [
             {
                 "to": {
@@ -183,7 +140,7 @@
                     "endOffset": 103
                 },
                 "from": {
-                    "file": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/E:\\gumenghao\\token\\JTAndroid\\easeui\\res\\values-large\\ease_dimens.xml",
+                    "file": "/Users/gumenghao/Documents/gitclone/JTAndroid/easeui/res/values-large/ease_dimens.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -202,7 +159,136 @@
                     "endOffset": 157
                 },
                 "from": {
-                    "file": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/E:\\gumenghao\\token\\JTAndroid\\easeui\\res\\values-large\\ease_dimens.xml",
+                    "file": "/Users/gumenghao/Documents/gitclone/JTAndroid/easeui/res/values-large/ease_dimens.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 716,
+                        "endColumn": 53,
+                        "endOffset": 765
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/E:\\gumenghao\\releasebug_end\\JTAndroid\\easeui\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 52,
+                    "endOffset": 103
+                },
+                "from": {
+                    "file": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/E:\\gumenghao\\releasebug_end\\JTAndroid\\easeui\\res\\values-large\\ease_dimens.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 663,
+                        "endColumn": 52,
+                        "endOffset": 711
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 108,
+                    "endColumn": 53,
+                    "endOffset": 157
+                },
+                "from": {
+                    "file": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/E:\\gumenghao\\releasebug_end\\JTAndroid\\easeui\\res\\values-large\\ease_dimens.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 716,
+                        "endColumn": 53,
+                        "endOffset": 765
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/easeui/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 52,
+                    "endOffset": 103
+                },
+                "from": {
+                    "file": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/easeui/res/values-large/ease_dimens.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 663,
+                        "endColumn": 52,
+                        "endOffset": 711
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 108,
+                    "endColumn": 53,
+                    "endOffset": 157
+                },
+                "from": {
+                    "file": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/easeui/res/values-large/ease_dimens.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 716,
+                        "endColumn": 53,
+                        "endOffset": 765
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/E:\\gumenghao\\before\\JTAndroid\\easeui\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 52,
+                    "endOffset": 103
+                },
+                "from": {
+                    "file": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/E:\\gumenghao\\before\\JTAndroid\\easeui\\res\\values-large\\ease_dimens.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 663,
+                        "endColumn": 52,
+                        "endOffset": 711
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 108,
+                    "endColumn": 53,
+                    "endOffset": 157
+                },
+                "from": {
+                    "file": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/E:\\gumenghao\\before\\JTAndroid\\easeui\\res\\values-large\\ease_dimens.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -258,7 +344,7 @@
         ]
     },
     {
-        "outputFile": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/E:\\gumenghao\\release_bug\\JTAndroid\\easeui\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
+        "outputFile": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/E:\\gumenghao\\qita\\JTAndroid\\easeui\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
         "map": [
             {
                 "to": {
@@ -269,7 +355,7 @@
                     "endOffset": 103
                 },
                 "from": {
-                    "file": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/E:\\gumenghao\\release_bug\\JTAndroid\\easeui\\res\\values-large\\ease_dimens.xml",
+                    "file": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/E:\\gumenghao\\qita\\JTAndroid\\easeui\\res\\values-large\\ease_dimens.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -288,50 +374,7 @@
                     "endOffset": 157
                 },
                 "from": {
-                    "file": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/E:\\gumenghao\\release_bug\\JTAndroid\\easeui\\res\\values-large\\ease_dimens.xml",
-                    "position": {
-                        "startLine": 20,
-                        "startColumn": 4,
-                        "startOffset": 716,
-                        "endColumn": 53,
-                        "endOffset": 765
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/easeui/build/intermediates/incremental/mergeDebugResources/merged.dir/values-large-v4/values-large-v4.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 52,
-                    "endOffset": 103
-                },
-                "from": {
-                    "file": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/easeui/res/values-large/ease_dimens.xml",
-                    "position": {
-                        "startLine": 19,
-                        "startColumn": 4,
-                        "startOffset": 663,
-                        "endColumn": 52,
-                        "endOffset": 711
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 108,
-                    "endColumn": 53,
-                    "endOffset": 157
-                },
-                "from": {
-                    "file": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/easeui/res/values-large/ease_dimens.xml",
+                    "file": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/E:\\gumenghao\\qita\\JTAndroid\\easeui\\res\\values-large\\ease_dimens.xml",
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,

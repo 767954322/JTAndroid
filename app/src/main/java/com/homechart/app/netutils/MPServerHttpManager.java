@@ -480,7 +480,47 @@ public class MPServerHttpManager {
         };
         queue.add(okStringRequest);
     }
+    /**
+     * 用户登录
+     *
+     * @param name
+     * @param pass
+     * @param callback
+     */
+    public void bundleGLLogin(final String name, final String pass, OkStringRequest.OKResponseCallback callback) {
+        OkStringRequest okStringRequest = new OkStringRequest(Request.Method.POST, UrlConstants.BUNDLE_BEFORE, callback) {
+            @Override
+            protected Map<String, String> getParams() throws AuthFailureError {
+                Map<String, String> map = CommontUtils.getPublicMap(MyApplication.getInstance());
+                String tabMd5String = Md5Util.getMD5twoTimes("jiami" + KeyConstans.ENCRYPTION_KEY);
+                map.put(ClassConstant.HomePic.SIGN, "jiami" + "," + tabMd5String);
+                map.put(ClassConstant.UserLoginActivity.USERNAME, name);
+                map.put(ClassConstant.UserLoginActivity.PASSWORD, pass);
+                return map;
+            }
 
+            public Map<String, String> getHeaders() throws AuthFailureError {
+                HashMap localHashMap = new HashMap();
+                String shared_cookie = SharedPreferencesUtils.readString("shared_cookie");
+                localHashMap.put("Cookie", shared_cookie);
+                return localHashMap;
+            }
+
+            //设置编码格式
+            @Override
+            protected Response<String> parseNetworkResponse(
+                    NetworkResponse response) {
+                // TODO Auto-generated method stub
+                try {
+                    String dataString = new String(response.data, "UTF-8");
+                    return Response.success(dataString, HttpHeaderParser.parseCacheHeaders(response));
+                } catch (UnsupportedEncodingException e) {
+                    return Response.error(new ParseError(e));
+                }
+            }
+        };
+        queue.add(okStringRequest);
+    }
     /**
      * 检验验证码是否正确
      *
@@ -547,57 +587,14 @@ public class MPServerHttpManager {
     }
 
     /**
-     * 用户登录
-     *
-     * @param name
-     * @param pass
-     * @param callback
-     */
-    public void bundleGLLogin(final String name, final String pass, OkStringRequest.OKResponseCallback callback) {
-        OkStringRequest okStringRequest = new OkStringRequest(Request.Method.POST, UrlConstants.BUNDLE_BEFORE, callback) {
-            @Override
-            protected Map<String, String> getParams() throws AuthFailureError {
-                Map<String, String> map = CommontUtils.getPublicMap(MyApplication.getInstance());
-                String tabMd5String = Md5Util.getMD5twoTimes("jiami" + KeyConstans.ENCRYPTION_KEY);
-                map.put(ClassConstant.HomePic.SIGN, "jiami" + "," + tabMd5String);
-                map.put(ClassConstant.UserLoginActivity.USERNAME, name);
-                map.put(ClassConstant.UserLoginActivity.PASSWORD, pass);
-                return map;
-            }
-
-            public Map<String, String> getHeaders() throws AuthFailureError {
-                HashMap localHashMap = new HashMap();
-                String shared_cookie = SharedPreferencesUtils.readString("shared_cookie");
-                localHashMap.put("Cookie", shared_cookie);
-                return localHashMap;
-            }
-
-            //设置编码格式
-            @Override
-            protected Response<String> parseNetworkResponse(
-                    NetworkResponse response) {
-                // TODO Auto-generated method stub
-                try {
-                    String dataString = new String(response.data, "UTF-8");
-                    return Response.success(dataString, HttpHeaderParser.parseCacheHeaders(response));
-                } catch (UnsupportedEncodingException e) {
-                    return Response.error(new ParseError(e));
-                }
-            }
-        };
-        queue.add(okStringRequest);
-    }
-
-    /**
      * 第三方登录
      *
      * @param openid
      * @param token
      * @param plat
-     * @param cookie
      * @param callback
      */
-    public void platLogin(final String openid, final String token, final String plat, final String cookie, OkStringRequest.OKResponseCallback callback) {
+    public void platLogin(final String openid, final String token, final String plat,  OkStringRequest.OKResponseCallback callback) {
         OkStringRequest okStringRequest = new OkStringRequest(Request.Method.POST, UrlConstants.LOGIN_PLAT, callback) {
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {
@@ -620,7 +617,7 @@ public class MPServerHttpManager {
                         cookieManager = new CookieManager();
                     }
                     SharedPreferencesUtils.writeString("shared_cookie", HttpCookie.parse(rawCookies).get(0).toString());
-//                    cookieManager.getCookieStore().add(null, HttpCookie.parse(rawCookies).get(0));
+                    cookieManager.getCookieStore().add(null, HttpCookie.parse(rawCookies).get(0));
                     String dataString = new String(response.data, "UTF-8");
                     return Response.success(dataString, HttpHeaderParser.parseCacheHeaders(response));
                 } catch (UnsupportedEncodingException e) {

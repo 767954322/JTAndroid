@@ -1,5 +1,29 @@
 [
     {
+        "outputFile": "/Users/gumenghao/Documents/gitclone/JTAndroid/easeui/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/Users/gumenghao/Documents/gitclone/JTAndroid/easeui/res/values-w820dp/ease_dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 305,
+                        "endColumn": 57,
+                        "endOffset": 358
+                    }
+                }
+            }
+        ]
+    },
+    {
         "outputFile": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/E:\\gumenghao\\before\\JTAndroid\\easeui\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
         "map": [
             {
@@ -24,7 +48,7 @@
         ]
     },
     {
-        "outputFile": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/E:\\gumenghao\\qitapingtai\\JTAndroid\\easeui\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+        "outputFile": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/easeui/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -35,7 +59,79 @@
                     "endOffset": 108
                 },
                 "from": {
-                    "file": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/E:\\gumenghao\\qitapingtai\\JTAndroid\\easeui\\res\\values-w820dp\\ease_dimens.xml",
+                    "file": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/easeui/res/values-w820dp/ease_dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 305,
+                        "endColumn": 57,
+                        "endOffset": 358
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/E:\\gumenghao\\releasebug_end\\JTAndroid\\easeui\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/E:\\gumenghao\\releasebug_end\\JTAndroid\\easeui\\res\\values-w820dp\\ease_dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 305,
+                        "endColumn": 57,
+                        "endOffset": 358
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/E:\\gumenghao\\token\\JTAndroid\\easeui\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/E:\\gumenghao\\token\\JTAndroid\\easeui\\res\\values-w820dp\\ease_dimens.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 305,
+                        "endColumn": 57,
+                        "endOffset": 358
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/E:\\gumenghao\\qita\\JTAndroid\\easeui\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/E:\\gumenghao\\qita\\JTAndroid\\easeui\\res\\values-w820dp\\ease_dimens.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -96,78 +192,6 @@
         ]
     },
     {
-        "outputFile": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/E:\\gumenghao\\token\\JTAndroid\\easeui\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 57,
-                    "endOffset": 108
-                },
-                "from": {
-                    "file": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/E:\\gumenghao\\token\\JTAndroid\\easeui\\res\\values-w820dp\\ease_dimens.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 305,
-                        "endColumn": 57,
-                        "endOffset": 358
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/easeui/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w820dp-v13/values-w820dp-v13.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 57,
-                    "endOffset": 108
-                },
-                "from": {
-                    "file": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/easeui/res/values-w820dp/ease_dimens.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 305,
-                        "endColumn": 57,
-                        "endOffset": 358
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/E:\\gumenghao\\qita\\JTAndroid\\easeui\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 57,
-                    "endOffset": 108
-                },
-                "from": {
-                    "file": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/E:\\gumenghao\\qita\\JTAndroid\\easeui\\res\\values-w820dp\\ease_dimens.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 305,
-                        "endColumn": 57,
-                        "endOffset": 358
-                    }
-                }
-            }
-        ]
-    },
-    {
         "outputFile": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/E:\\gumenghao\\release_bug\\JTAndroid\\easeui\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
         "map": [
             {
@@ -192,7 +216,7 @@
         ]
     },
     {
-        "outputFile": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/E:\\gumenghao\\releasebug_end\\JTAndroid\\easeui\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+        "outputFile": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/E:\\gumenghao\\qitapingtai\\JTAndroid\\easeui\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -203,7 +227,7 @@
                     "endOffset": 108
                 },
                 "from": {
-                    "file": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/E:\\gumenghao\\releasebug_end\\JTAndroid\\easeui\\res\\values-w820dp\\ease_dimens.xml",
+                    "file": "/Users/gumenghao/Documents/projectsAS/others/JTAndroid/E:\\gumenghao\\qitapingtai\\JTAndroid\\easeui\\res\\values-w820dp\\ease_dimens.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,

@@ -458,7 +458,7 @@ public class UserRegisterActivity extends BaseActivity implements View.OnClickLi
                 }
             }
         };
-        MPServerHttpManager.getInstance().platLogin(openid, token, plat, "Cookie_register", callBack);
+        MPServerHttpManager.getInstance().platLogin(openid, token, plat, callBack);
     }
 
     //级验滑动后，先检验是否可以发送短信

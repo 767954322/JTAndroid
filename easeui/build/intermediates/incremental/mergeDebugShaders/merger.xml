@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/gumenghao/Documents/projectsAS/others/JTAndroid/easeui/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/Users/gumenghao/Documents/projectsAS/others/JTAndroid/easeui/build-types/debug/shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/Users/gumenghao/Documents/gitclone/JTAndroid/easeui/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/Users/gumenghao/Documents/gitclone/JTAndroid/easeui/build-types/debug/shaders"/></dataSet></merger>

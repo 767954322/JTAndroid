@@ -354,7 +354,7 @@ public class UserLoginActivity extends BaseActivity implements View.OnClickListe
                 }
             }
         };
-        MPServerHttpManager.getInstance().platLogin(openid, token, plat, "Cookie_rungl", callBack);
+        MPServerHttpManager.getInstance().platLogin(openid, token, plat, callBack);
     }
 
     //未绑定跳转绑定界面

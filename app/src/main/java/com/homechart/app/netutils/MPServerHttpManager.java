@@ -273,12 +273,6 @@ public class MPServerHttpManager {
                 map.put(ClassConstant.HomePic.SIGN, "jiami" + "," + tabMd5String);
                 return map;
             }
-
-            //            public Map<String, String> getHeaders() throws AuthFailureError {
-//                HashMap localHashMap = new HashMap();
-//                localHashMap.put("Cookie", SharedPreferencesUtils.readString("Cookie_rungl"));
-//                return localHashMap;
-//            }
             @Override
             protected Response<String> parseNetworkResponse(
                     NetworkResponse response) {

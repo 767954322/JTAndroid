@@ -77,6 +77,7 @@ public class ClassConstant {
         public static final String OPENID = "openid";
         public static final String PLAT = "plat";
         public static final String TOKEN = "token";
+        public static final String NIKENAME = "nickname";
 
     }
 

@@ -588,7 +588,7 @@ public class MPServerHttpManager {
      * @param plat
      * @param callback
      */
-    public void platLogin(final String openid, final String token, final String plat,  OkStringRequest.OKResponseCallback callback) {
+    public void platLogin(final String openid, final String token, final String plat, final String nickname, OkStringRequest.OKResponseCallback callback) {
         OkStringRequest okStringRequest = new OkStringRequest(Request.Method.POST, UrlConstants.LOGIN_PLAT, callback) {
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {
@@ -598,6 +598,7 @@ public class MPServerHttpManager {
                 map.put(ClassConstant.DesinerRegister.OPENID, openid);
                 map.put(ClassConstant.DesinerRegister.PLAT, plat);
                 map.put(ClassConstant.DesinerRegister.TOKEN, token);
+                map.put(ClassConstant.DesinerRegister.NIKENAME, nickname);
                 return map;
             }
 

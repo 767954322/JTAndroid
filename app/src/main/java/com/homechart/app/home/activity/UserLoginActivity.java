@@ -284,6 +284,7 @@ public class UserLoginActivity extends BaseActivity implements View.OnClickListe
             String openid = data.get("uid");
             String token = data.get("access_token");
             String name = data.get("name");
+            String iconurl = data.get("iconurl");
             String plat = "";
             switch (platform.toString()) {
                 case "SINA":
@@ -314,7 +315,7 @@ public class UserLoginActivity extends BaseActivity implements View.OnClickListe
                     plat = "weixin";
                     break;
             }
-            platLogin(openid, token, plat, name);
+            platLogin(openid, token, plat, name, iconurl);
         }
 
         @Override
@@ -330,7 +331,7 @@ public class UserLoginActivity extends BaseActivity implements View.OnClickListe
         }
     };
 
-    private void platLogin(final String openid, final String token, final String plat, final String name) {
+    private void platLogin(final String openid, final String token, final String plat, final String name, final String iconurl) {
         OkStringRequest.OKResponseCallback callBack = new OkStringRequest.OKResponseCallback() {
             @Override
             public void onErrorResponse(VolleyError volleyError) {
@@ -347,20 +348,24 @@ public class UserLoginActivity extends BaseActivity implements View.OnClickListe
                     if (TextUtils.isEmpty(info)) {
                         loginPersion(s);
                     } else {
-                        bundlePersion(name);
+                        bundlePersion(openid, token, plat, name, iconurl);
                     }
                 } catch (JSONException e) {
                     ToastUtils.showCenter(UserLoginActivity.this, "请求服务器失败，请重新尝试");
                 }
             }
         };
-        MPServerHttpManager.getInstance().platLogin(openid, token, plat, callBack);
+        MPServerHttpManager.getInstance().platLogin(openid, token, plat, name, callBack);
     }
 
     //未绑定跳转绑定界面
-    private void bundlePersion(String name) {
-        Intent intent = new Intent(UserLoginActivity.this, UserBundleActivity.class);
+    private void bundlePersion(String openid, String token, String plat, String name, String iconurl) {
+        Intent intent = new Intent(UserLoginActivity.this, NewUserNameActivity.class);
+        intent.putExtra("openid", openid);
+        intent.putExtra("token", token);
+        intent.putExtra("plat", plat);
         intent.putExtra("username", name);
+        intent.putExtra("iconurl", iconurl);
         startActivityForResult(intent, 0);
     }
 

@@ -390,6 +390,7 @@ public class UserRegisterActivity extends BaseActivity implements View.OnClickLi
             String openid = data.get("uid");
             String token = data.get("access_token");
             String name = data.get("name");
+            String iconurl = data.get("iconurl");
             String plat = "";
             switch (platform.toString()) {
                 case "SINA":
@@ -420,7 +421,7 @@ public class UserRegisterActivity extends BaseActivity implements View.OnClickLi
                     mFirebaseAnalytics.logEvent("注册页面_WeChat登陆成功", bundle2);
                     break;
             }
-            platLogin(openid, token, plat, name);
+            platLogin(openid, token, plat, name, iconurl);
         }
 
         @Override
@@ -434,7 +435,7 @@ public class UserRegisterActivity extends BaseActivity implements View.OnClickLi
         }
     };
 
-    private void platLogin(final String openid, final String token, final String plat, final String name) {
+    private void platLogin(final String openid, final String token, final String plat, final String name, final String iconurl) {
         OkStringRequest.OKResponseCallback callBack = new OkStringRequest.OKResponseCallback() {
             @Override
             public void onErrorResponse(VolleyError volleyError) {
@@ -451,14 +452,14 @@ public class UserRegisterActivity extends BaseActivity implements View.OnClickLi
                     if (TextUtils.isEmpty(info)) {
                         loginPersion(s);
                     } else {
-                        bundlePersion(name);
+                        bundlePersion(name, iconurl);
                     }
                 } catch (JSONException e) {
                     ToastUtils.showCenter(UserRegisterActivity.this, "请求服务器失败，请重新尝试");
                 }
             }
         };
-        MPServerHttpManager.getInstance().platLogin(openid, token, plat, callBack);
+        MPServerHttpManager.getInstance().platLogin(openid, token, plat,name , callBack);
     }
 
     //级验滑动后，先检验是否可以发送短信
@@ -522,9 +523,10 @@ public class UserRegisterActivity extends BaseActivity implements View.OnClickLi
     }
 
     //未绑定跳转绑定界面
-    private void bundlePersion(String name) {
-        Intent intent = new Intent(UserRegisterActivity.this, UserBundleActivity.class);
+    private void bundlePersion(String name, String iconurl) {
+        Intent intent = new Intent(UserRegisterActivity.this, NewUserNameActivity.class);
         intent.putExtra("username", name);
+        intent.putExtra("iconurl", iconurl);
         startActivityForResult(intent, 0);
     }
 

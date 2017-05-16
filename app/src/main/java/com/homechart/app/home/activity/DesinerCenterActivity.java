@@ -300,8 +300,8 @@ public class DesinerCenterActivity extends BaseActivity implements View.OnClickL
             case R.id.rl_phone:
                 if (null != desinerCenterBean
                         && null != desinerCenterBean.getData()
-                        && null != desinerCenterBean.getData().getTelephone()) {
-                    if (!TextUtils.isEmpty(desinerCenterBean.getData().getTelephone())) {
+                        && null != desinerCenterBean.getData().getMobile()) {
+                    if (!TextUtils.isEmpty(desinerCenterBean.getData().getMobile())) {
                         MyApplication.getInstance().getDefaultTracker().send(new HitBuilders.EventBuilder()
                                 .setCategory("designerInfo1_action")  //事件类别
                                 .setAction("打电话")      //事件操作
